@@ -1,0 +1,27 @@
+
+
+span{
+  color: #352DD2;
+}
+
+.skill-meassure{
+  height: 1em;
+  background: linear-gradient(90deg, #352DD2, rgb(111, 159, 243));
+  border-radius: 5px;
+  width: 100%;
+  margin: 1em 0;
+  position: relative;
+}
+
+.skill-progress{
+  float: right;
+  width: 20%;
+  background: rgb(245, 245, 245);
+  border-radius: 5px;
+  font-size: 70%;
+  position: absolute;
+  left: 80%;
+}
+ #top-div{
+   text-align: center;
+ }

@@ -5,26 +5,37 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { ProductPageComponent } from './product-page/product-page.component';
-import { ProductDescriptionComponent } from './product-description/product-description.component';
-import { ProductService } from './product.service';
-import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
-import { ProductListComponent } from './product-list/product-list.component';
+import { ClientComponent } from './components/body/client/client.component';
+import { ContactComponent } from './components/body/contact/contact.component';
+import { DetailComponent } from './components/body/detail/detail.component';
+import { ExperienceComponent } from './components/body/experience/experience.component';
+import { GalleryComponent } from './components/body/gallery/gallery.component';
+import { SkillsComponent } from './components/body/skills/skills.component';
+import { WelcomeComponent } from './components/body/welcome/welcome.component';
+import { WorksComponent } from './components/body/works/works.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+
 
 
 const appRoutes:Routes = [
-  {path: 'products', component: ProductListComponent},
-  {path: 'product/:id', component: ProductPageComponent},
-  {path: '', redirectTo: "products", pathMatch: 'full'}
+
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductPageComponent,
-    ProductDescriptionComponent,
-    ProductTracklistingComponent,
-    ProductListComponent
+    ClientComponent,
+    ContactComponent,
+    DetailComponent,
+    ExperienceComponent,
+    GalleryComponent,
+    SkillsComponent,
+    WelcomeComponent,
+    WorksComponent,
+    FooterComponent,
+    HeaderComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -33,7 +44,7 @@ const appRoutes:Routes = [
     RouterModule.forRoot(appRoutes)
   ],
   providers: [
-    ProductService
+
   ],
   bootstrap: [AppComponent]
 })

@@ -1,0 +1,43 @@
+footer{
+  background: linear-gradient(90deg,  #352DD2, rgb(111, 159, 243));
+  width: 100%;
+  height: 20em;
+  position: relative;
+  text-align: center;
+  margin-top: 5em;
+}
+li{
+  display: inline;
+  margin: .78em;
+  border-radius: 100%;
+  background: rgba(53, 45, 210, 0.493);
+  padding: 1em;
+}
+#footer-links a{
+  text-decoration: none;
+  color: white;
+}
+i{
+  font-size: 1em;
+}
+
+#arrow-up{
+  background: white;
+  color: #352DD2;
+  position: absolute;
+  width: 3em;
+  height: 3.5em;
+  top: -10px;
+  left: 50%;
+  box-shadow: 0px 0px 10px rgb(77, 69, 231);
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+#footer-links{
+  margin: auto;
+  width: 40%;
+  margin-top: 5em;
+  vertical-align: middle;
+  color: white;
+}

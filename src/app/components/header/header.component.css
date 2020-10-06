@@ -1,0 +1,10 @@
+header{
+  background-color: transparent;
+  height: 100px;
+  padding-top: 1em;
+}
+li{
+  display: inline;
+  margin-left: 2em;
+
+}

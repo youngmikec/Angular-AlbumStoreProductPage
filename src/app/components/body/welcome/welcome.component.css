@@ -1,0 +1,21 @@
+#welcome-banner{
+  background: linear-gradient(87deg, rgb(111, 159, 243), #352DD2);
+  height: 45em;
+  border-radius: 0  0 28%  50%;
+  padding-bottom: 5em;
+  color: white;
+  margin-bottom: 2em;
+}
+#img-thumbnail{
+  position: relative;
+  height: 26em;
+  width: 56%;
+  box-shadow: 20px 1px 1px rgb(43, 36, 173);
+  border-radius: 100%;
+  background: url('/../assets/img/profile.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+button{
+  background: white;
+}

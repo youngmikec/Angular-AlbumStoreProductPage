@@ -1,0 +1,52 @@
+a{
+  background: black;
+  border-radius: 5px;
+  height: 2em;
+  min-width: 2.5em;
+  padding: 1em .4em;
+  margin-right: 1em;
+}
+.c{
+  margin: 0em 0em 1em 0em;
+}
+i{
+  color: white;
+  font-size: 2em;
+}
+span{
+  color: #352DD2;
+}
+section{
+  margin: 1.5em 0;
+}
+
+button{
+  background: linear-gradient(90deg, #352DD2, rgb(111, 159, 243) );
+  color: white;
+}
+.inp{
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  width: 47.1%;
+  margin: 0 auto;
+  padding: .5em;
+}
+input{
+  background: rgb(243, 243, 243);
+}
+input:focus{
+  border: 1px solid black;
+}
+input[placeholder="name"]{
+  margin-right: 5%;
+}
+sup{
+  vertical-align: top;
+  color: black;
+  font-weight: bold;
+
+}
+sub{
+  vertical-align: bottom;
+  color: lightgrey;
+}
